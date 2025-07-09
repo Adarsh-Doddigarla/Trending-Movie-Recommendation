@@ -1,5 +1,5 @@
 # 🎬 Movie Recommendation App
-This is a modern web application built with React 19 and Tailwind CSS that allows users to search for movies, view trending titles, and access detailed information using data from the TMDB API and Appwrite backend.
+This is a modern web application built with **`React 19 and Tailwind CSS`** that allows users to search for movies, view trending titles, and access detailed information using data from the TMDB API and Appwrite backend.
 
 # ✨ Features
 Search for movies using keywords via TMDB.
