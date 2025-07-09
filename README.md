@@ -1,12 +1,77 @@
-# React + Vite
+🎬 Movie Recommendation App
+This is a modern web application built with React 19 and Tailwind CSS that allows users to search for movies, view trending titles, and access detailed information using data from the TMDB API and Appwrite backend.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Search for movies using keywords via TMDB.
 
-Currently, two official plugins are available:
+View trending movies stored and managed using Appwrite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive UI designed with Tailwind CSS for both desktop and mobile users.
 
-## Expanding the ESLint configuration
+Loading states for better UX during data fetch.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clean component structure for easy maintenance and scalability.
+
+🛠️ Tech Stack
+React 19
+
+Tailwind CSS
+
+TMDB API – Movie data
+
+Appwrite – Backend and database
+
+Vite – Development server and bundler
+
+📦 Prerequisites
+Before running the app, ensure you have the following:
+
+Node.js (v16 or later)
+
+npm or yarn
+
+📁 Installation
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/YOUR_USERNAME/movie-recommendation-app.git
+cd movie-recommendation-app
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+# or
+yarn
+3. Configure environment variables
+Create a .env.local file in the root directory and add the following:
+
+env
+Copy
+Edit
+VITE_TMDB_API_KEY=your_tmdb_key
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
+4. Start the development server
+bash
+Copy
+Edit
+npm run dev
+# or
+yarn dev
+Open http://localhost:5173 in your browser to view the app.
+
+🚀 Usage
+On the homepage, you'll see a list of trending movies fetched from Appwrite.
+
+Use the search bar to find any movie via the TMDB API.
+
+Click on any movie card to view more information.
+
+🖼️ Screenshots
+Save your screenshots in public/screenshots/ and update the file names accordingly.
+
+Home Page	Search
