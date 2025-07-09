@@ -32,34 +32,41 @@ npm or yarn
 
 # 📁 Installation
 1. Clone the repository
-bash
-Copy
-Edit
+
 git clone https://github.com/YOUR_USERNAME/movie-recommendation-app.git
+
 cd movie-recommendation-app
+
 # 2. Install dependencies
-bash
-Copy
-Edit
+
 npm install
 or
 yarn
+
 # 3. Configure environment variables
 Create a .env.local file in the root directory and add the following:
 
 VITE_TMDB_API_KEY=your_tmdb_key
+
 VITE_APPWRITE_PROJECT_ID=your_project_id
+
 VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
+
 VITE_APPWRITE_DATABASE_ID=your_database_id
+
 VITE_APPWRITE_COLLECTION_ID=your_collection_id
+
 # 4. Start the development server
 
 npm run dev
+
 or
+
 yarn dev
+
 Open http://localhost:5173 in your browser to view the app.
 
-#🚀 Usage
+# 🚀 Usage
 On the homepage, you'll see a list of trending movies fetched from Appwrite.
 
 Use the search bar to find any movie via the TMDB API.
