@@ -67,12 +67,20 @@ yarn dev
 Open http://localhost:5173 in your browser to view the app.
 
 # 🚀 Usage
-On the homepage, you'll see a list of trending movies fetched from Appwrite.
+-On the homepage, you'll see a list of trending movies fetched from Appwrite.
 
-Use the search bar to find any movie via the TMDB API.
+-Use the search bar to find any movie via the TMDB API.
 
-Click on any movie card to view more information.
+-Click on any movie card to view more information.
 
 # 🖼️ Screenshots
 
-Home Page	Search
+Home Page	
+
+![image](https://github.com/user-attachments/assets/1cd43948-1a15-44ae-89c8-b486b04db865)
+
+Search
+
+![image](https://github.com/user-attachments/assets/87b16985-4529-4693-b090-87d8e958b288)
+
+
